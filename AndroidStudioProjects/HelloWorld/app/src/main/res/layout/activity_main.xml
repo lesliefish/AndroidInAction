@@ -8,15 +8,24 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
         <Button
             android:id="@+id/button"
-            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="wrap_content"
             android:background="#000000"
-            android:text="按钮"
+            android:text="TextView"
             android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/learnButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#238754"
+            android:text="Button"
+            android:textColor="#FFFFFF"
             />
 
     </LinearLayout>

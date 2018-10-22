@@ -23,5 +23,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // 按钮操纵
+        Button learnBtn = findViewById(R.id.learnButton);
+        learnBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BtnLearnActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
