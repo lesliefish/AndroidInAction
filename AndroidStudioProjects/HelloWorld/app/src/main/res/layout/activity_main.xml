@@ -28,6 +28,15 @@
             android:textColor="#FFFFFF"
             />
 
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#002355"
+            android:text="EditText"
+            android:textColor="#FFFFFF"
+            />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

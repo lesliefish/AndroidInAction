@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TextViewActivity" />
-        <activity android:name=".BtnLearnActivity"></activity>
+        <activity android:name=".BtnLearnActivity" />
+        <activity android:name=".TextEditActivity"></activity>
     </application>
 
 </manifest>

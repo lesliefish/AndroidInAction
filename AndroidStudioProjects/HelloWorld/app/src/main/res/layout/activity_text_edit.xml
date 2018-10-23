@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/user_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFAD33"
+            android:background="@drawable/et_test_shape"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+
+            android:hint="用户名"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFAD33"
+            android:background="@drawable/et_test_shape"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:hint="密码"/>
+
+        <Button
+            android:layout_marginTop="45dp"
+            android:id="@+id/login_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#002355"
+            android:text="登录"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
