@@ -20,7 +20,8 @@
         <activity android:name=".BtnLearnActivity" />
         <activity android:name=".TextEditActivity" />
         <activity android:name=".ToggleButtonActivity" />
-        <activity android:name=".CheckBoxActivity"></activity>
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity"></activity>
     </application>
 
 </manifest>

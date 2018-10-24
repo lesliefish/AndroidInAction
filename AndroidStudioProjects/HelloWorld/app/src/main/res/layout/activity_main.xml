@@ -55,6 +55,15 @@
             android:textColor="#FFFFFF"
             />
 
+        <Button
+            android:id="@+id/radio_button"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ff4509"
+            android:text="RadioButton"
+            android:textColor="#FFFFFF"
+            />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
