@@ -55,5 +55,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // checkbox
+        Button checkBoxBtn = findViewById(R.id.checkbox_button);
+        checkBoxBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CheckBoxActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
