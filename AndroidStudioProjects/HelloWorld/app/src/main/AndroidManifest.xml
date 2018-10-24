@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".TextViewActivity" />
         <activity android:name=".BtnLearnActivity" />
-        <activity android:name=".TextEditActivity"></activity>
+        <activity android:name=".TextEditActivity" />
+        <activity android:name=".ToggleButtonActivity"></activity>
     </application>
 
 </manifest>

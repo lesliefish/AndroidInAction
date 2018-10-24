@@ -44,5 +44,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        // toggleButton
+        Button toggleBtn = findViewById(R.id.toggle_button);
+        toggleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ToggleButtonActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
