@@ -21,7 +21,8 @@
         <activity android:name=".TextEditActivity" />
         <activity android:name=".ToggleButtonActivity" />
         <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RadioButtonActivity"></activity>
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".AlertDialogActivity"></activity>
     </application>
 
 </manifest>

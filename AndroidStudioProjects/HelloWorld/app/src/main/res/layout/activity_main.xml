@@ -64,6 +64,15 @@
             android:textColor="#FFFFFF"
             />
 
+        <Button
+            android:id="@+id/alert_dialog_button"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#8882d9"
+            android:text="AlertDialogTest"
+            android:textColor="#FFFFFF"
+            />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

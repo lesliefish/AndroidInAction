@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         mButton = findViewById(R.id.button);
         mButton.setOnClickListener(new Button.OnClickListener(){
@@ -76,6 +76,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RadioButtonActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // alertDialog
+        Button alertDialogBtn = findViewById(R.id.alert_dialog_button);
+        alertDialogBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AlertDialogActivity.class);
                 startActivity(intent);
             }
         });
