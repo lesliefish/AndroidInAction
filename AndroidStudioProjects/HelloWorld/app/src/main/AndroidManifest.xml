@@ -22,7 +22,8 @@
         <activity android:name=".ToggleButtonActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".AlertDialogActivity"></activity>
+        <activity android:name=".AlertDialogActivity" />
+        <activity android:name=".SpinnerActivity"></activity>
     </application>
 
 </manifest>

@@ -89,5 +89,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // spinnerBtn
+        Button spinnerBtn = findViewById(R.id.spinner_button);
+        spinnerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
