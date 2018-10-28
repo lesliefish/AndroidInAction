@@ -25,7 +25,8 @@
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".CustomListViewTestActivity"></activity>
+        <activity android:name=".CustomListViewTestActivity" />
+        <activity android:name=".RatingBarActivity"></activity>
     </application>
 
 </manifest>

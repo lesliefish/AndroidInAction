@@ -9,18 +9,13 @@ import android.widget.Button;
 import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button mButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-        mButton = findViewById(R.id.button);
-        mButton.setOnClickListener(new Button.OnClickListener(){
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TextViewActivity.class);
@@ -48,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
         // toggleButton
         Button toggleBtn = findViewById(R.id.toggle_button);
@@ -116,6 +110,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CustomListViewTestActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // ratingBarBtn
+        Button ratingBarBtn = findViewById(R.id.ratingBarBtn);
+        ratingBarBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RatingBarActivity.class);
                 startActivity(intent);
             }
         });

@@ -90,6 +90,14 @@
             android:background="#115599"
             android:text="CustomListView"
             android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/ratingBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#660000"
+            android:text="RatingBar"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
