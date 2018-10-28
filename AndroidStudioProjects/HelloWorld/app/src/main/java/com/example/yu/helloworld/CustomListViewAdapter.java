@@ -11,7 +11,25 @@ import android.widget.TextView;
 public class CustomListViewAdapter extends ArrayAdapter<String> {
 
     private final Activity activity;
+
+    public String[] getTitles() {
+        return titles;
+    }
+
+    public String[] getSubTitles() {
+        return subTitles;
+    }
+
+    public Integer[] getImageIds() {
+        return imageIds;
+    }
+
     private final String[] titles;
+
+    public Activity getActivity() {
+        return activity;
+    }
+
     private final String[] subTitles;
     private final Integer[] imageIds;
 
