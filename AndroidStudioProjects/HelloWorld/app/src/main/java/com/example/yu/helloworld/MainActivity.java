@@ -109,5 +109,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // customListviewBtn
+        Button customListviewBtn = findViewById(R.id.custom_list_view_button);
+        customListviewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CustomListViewTestActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

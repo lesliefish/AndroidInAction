@@ -24,7 +24,9 @@
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".CustomListViewActivity" />
+        <activity android:name=".CustomListViewTestActivity"></activity>
     </application>
 
 </manifest>

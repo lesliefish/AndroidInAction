@@ -10,86 +10,86 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#000000"
             android:text="TextView"
-            android:textColor="#ffffff"
-            />
+            android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/learnButton"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#238754"
             android:text="Button"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/edit_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#002355"
             android:text="EditText"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/toggle_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#332211"
             android:text="ToggleButton"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/checkbox_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#4700dd"
             android:text="CheckBox"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/radio_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#ff4509"
             android:text="RadioButton"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/alert_dialog_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#8882d9"
             android:text="AlertDialogTest"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/spinner_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#333122"
             android:text="Spinner"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/listview_button"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#990022"
             android:text="ListView"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/custom_list_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#115599"
+            android:text="CustomListView"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
