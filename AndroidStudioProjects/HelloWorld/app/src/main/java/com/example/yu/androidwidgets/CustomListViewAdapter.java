@@ -1,4 +1,4 @@
-package com.example.yu.helloworld;
+package com.example.yu.androidwidgets;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.yu.helloworld.R;
 
 public class CustomListViewAdapter extends ArrayAdapter<String> {
 

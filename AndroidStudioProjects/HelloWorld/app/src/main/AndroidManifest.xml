@@ -16,17 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextViewActivity" />
-        <activity android:name=".BtnLearnActivity" />
-        <activity android:name=".TextEditActivity" />
-        <activity android:name=".ToggleButtonActivity" />
-        <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".AlertDialogActivity" />
-        <activity android:name=".SpinnerActivity" />
-        <activity android:name=".ListViewActivity" />
-        <activity android:name=".CustomListViewTestActivity" />
-        <activity android:name=".RatingBarActivity"></activity>
+        <activity android:name="com.example.yu.androidwidgets.TextViewActivity" />
+        <activity android:name="com.example.yu.androidwidgets.BtnLearnActivity" />
+        <activity android:name="com.example.yu.androidwidgets.TextEditActivity" />
+        <activity android:name="com.example.yu.androidwidgets.ToggleButtonActivity" />
+        <activity android:name="com.example.yu.androidwidgets.CheckBoxActivity" />
+        <activity android:name="com.example.yu.androidwidgets.RadioButtonActivity" />
+        <activity android:name="com.example.yu.androidwidgets.AlertDialogActivity" />
+        <activity android:name="com.example.yu.androidwidgets.SpinnerActivity" />
+        <activity android:name="com.example.yu.androidwidgets.ListViewActivity" />
+        <activity android:name="com.example.yu.androidwidgets.CustomListViewTestActivity" />
+        <activity android:name="com.example.yu.androidwidgets.RatingBarActivity"></activity>
     </application>
 
 </manifest>

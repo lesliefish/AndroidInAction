@@ -1,4 +1,4 @@
-package com.example.yu.helloworld;
+package com.example.yu.androidwidgets;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.example.yu.helloworld.R;
 
 public class RadioButtonActivity extends AppCompatActivity {
 

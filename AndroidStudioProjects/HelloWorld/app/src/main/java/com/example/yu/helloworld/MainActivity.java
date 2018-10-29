@@ -4,9 +4,19 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.RadioButton;
+
+import com.example.yu.androidwidgets.AlertDialogActivity;
+import com.example.yu.androidwidgets.BtnLearnActivity;
+import com.example.yu.androidwidgets.CheckBoxActivity;
+import com.example.yu.androidwidgets.CustomListViewTestActivity;
+import com.example.yu.androidwidgets.ListViewActivity;
+import com.example.yu.androidwidgets.RadioButtonActivity;
+import com.example.yu.androidwidgets.RatingBarActivity;
+import com.example.yu.androidwidgets.SpinnerActivity;
+import com.example.yu.androidwidgets.TextEditActivity;
+import com.example.yu.androidwidgets.TextViewActivity;
+import com.example.yu.androidwidgets.ToggleButtonActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override

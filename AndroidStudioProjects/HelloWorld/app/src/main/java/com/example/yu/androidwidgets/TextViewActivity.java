@@ -1,10 +1,12 @@
-package com.example.yu.helloworld;
+package com.example.yu.androidwidgets;
 
 import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.widget.TextView;
+
+import com.example.yu.helloworld.R;
 
 public class TextViewActivity extends AppCompatActivity {
 
