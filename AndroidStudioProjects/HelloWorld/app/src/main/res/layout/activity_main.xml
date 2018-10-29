@@ -98,6 +98,14 @@
             android:background="#660000"
             android:text="RatingBar"
             android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/webViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#443321"
+            android:text="WebView"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

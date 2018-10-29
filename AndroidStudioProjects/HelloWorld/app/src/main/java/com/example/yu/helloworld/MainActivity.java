@@ -17,6 +17,7 @@ import com.example.yu.androidwidgets.SpinnerActivity;
 import com.example.yu.androidwidgets.TextEditActivity;
 import com.example.yu.androidwidgets.TextViewActivity;
 import com.example.yu.androidwidgets.ToggleButtonActivity;
+import com.example.yu.androidwidgets.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -130,6 +131,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RatingBarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // webViewBtn
+        Button webViewBtn = findViewById(R.id.webViewBtn);
+        webViewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
                 startActivity(intent);
             }
         });
