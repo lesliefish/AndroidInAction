@@ -30,7 +30,8 @@
         <activity android:name="com.example.yu.androidwidgets.CustomListViewTestActivity" />
         <activity android:name="com.example.yu.androidwidgets.RatingBarActivity" />
         <activity android:name="com.example.yu.androidwidgets.WebViewActivity" />
-        <activity android:name="com.example.yu.androidwidgets.SeekBarActivity"></activity>
+        <activity android:name="com.example.yu.androidwidgets.SeekBarActivity" />
+        <activity android:name=".Widgets1Activity"></activity>
     </application>
 
 </manifest>
