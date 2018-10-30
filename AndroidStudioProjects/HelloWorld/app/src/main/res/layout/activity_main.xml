@@ -17,8 +17,15 @@
             android:background="#000000"
             android:textColor="#999999"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"/>
+            android:layout_height="wrap_content"></Button>
+
+        <Button
+            android:id="@+id/widgets2Button"
+            android:text="Widgets Demo2"
+            android:background="#0066aa"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
 
     </LinearLayout>
 
