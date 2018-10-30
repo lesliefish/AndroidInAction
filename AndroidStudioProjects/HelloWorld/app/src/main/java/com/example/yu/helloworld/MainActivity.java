@@ -13,6 +13,7 @@ import com.example.yu.androidwidgets.CustomListViewTestActivity;
 import com.example.yu.androidwidgets.ListViewActivity;
 import com.example.yu.androidwidgets.RadioButtonActivity;
 import com.example.yu.androidwidgets.RatingBarActivity;
+import com.example.yu.androidwidgets.SeekBarActivity;
 import com.example.yu.androidwidgets.SpinnerActivity;
 import com.example.yu.androidwidgets.TextEditActivity;
 import com.example.yu.androidwidgets.TextViewActivity;
@@ -141,6 +142,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // seekBarBtn
+        Button seekBarBtn = findViewById(R.id.seekBarBtn);
+        seekBarBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SeekBarActivity.class);
                 startActivity(intent);
             }
         });

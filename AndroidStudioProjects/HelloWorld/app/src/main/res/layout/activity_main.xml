@@ -106,6 +106,15 @@
             android:background="#443321"
             android:text="WebView"
             android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/seekBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#412221"
+            android:text="SeekBar"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
