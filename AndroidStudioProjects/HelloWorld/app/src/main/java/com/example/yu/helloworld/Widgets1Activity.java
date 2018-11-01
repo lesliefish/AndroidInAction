@@ -10,6 +10,7 @@ import com.example.yu.androidwidgets.AlertDialogActivity;
 import com.example.yu.androidwidgets.BtnLearnActivity;
 import com.example.yu.androidwidgets.CheckBoxActivity;
 import com.example.yu.androidwidgets.CustomListViewTestActivity;
+import com.example.yu.androidwidgets.DatePickerActivity;
 import com.example.yu.androidwidgets.ListViewActivity;
 import com.example.yu.androidwidgets.RadioButtonActivity;
 import com.example.yu.androidwidgets.RatingBarActivity;
@@ -154,6 +155,15 @@ public class Widgets1Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Widgets1Activity.this, SeekBarActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        // 日期
+        Button datePickerBtn = findViewById(R.id.datePickerBtn);
+        datePickerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Widgets1Activity.this, DatePickerActivity.class));
             }
         });
     }

@@ -33,13 +33,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Widgets1Activity.class));
             }
         });
-
-        Button widgets2Btn = findViewById(R.id.widgets2Button);
-        widgets2Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Widgets2Activity.class));
-            }
-        });
     }
 }

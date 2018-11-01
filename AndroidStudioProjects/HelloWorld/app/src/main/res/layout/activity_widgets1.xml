@@ -6,115 +6,132 @@
     android:layout_height="match_parent"
     tools:context=".Widgets1Activity">
 
-    <LinearLayout
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/button"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#000000"
-            android:text="TextView"
-            android:textColor="#ffffff" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/learnButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#238754"
-            android:text="Button"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="TextView"
+                android:textColor="#ffffff" />
 
-        <Button
-            android:id="@+id/edit_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#002355"
-            android:text="EditText"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/learnButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#238754"
+                android:text="Button"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/toggle_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#332211"
-            android:text="ToggleButton"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/edit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002355"
+                android:text="EditText"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/checkbox_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#4700dd"
-            android:text="CheckBox"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/toggle_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#332211"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/radio_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ff4509"
-            android:text="RadioButton"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/checkbox_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4700dd"
+                android:text="CheckBox"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/alert_dialog_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#8882d9"
-            android:text="AlertDialogTest"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff4509"
+                android:text="RadioButton"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/spinner_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#333122"
-            android:text="Spinner"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/alert_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8882d9"
+                android:text="AlertDialogTest"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/listview_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#990022"
-            android:text="ListView"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/spinner_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#333122"
+                android:text="Spinner"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/custom_list_view_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#115599"
-            android:text="CustomListView"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/listview_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#990022"
+                android:text="ListView"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/ratingBarBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#660000"
-            android:text="RatingBar"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/custom_list_view_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#115599"
+                android:text="CustomListView"
+                android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/webViewBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#443321"
-            android:text="WebView"
-            android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/ratingBarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#660000"
+                android:text="RatingBar"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/webViewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#443321"
+                android:text="WebView"
+                android:textColor="#FFFFFF" />
 
 
-        <Button
-            android:id="@+id/seekBarBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#412221"
-            android:text="SeekBar"
-            android:textColor="#FFFFFF" />
-    </LinearLayout>
+            <Button
+                android:id="@+id/seekBarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#412221"
+                android:text="SeekBar"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/datePickerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="DataPicker"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>

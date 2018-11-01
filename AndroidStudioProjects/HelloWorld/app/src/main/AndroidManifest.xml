@@ -32,7 +32,6 @@
         <activity android:name="com.example.yu.androidwidgets.WebViewActivity" />
         <activity android:name="com.example.yu.androidwidgets.SeekBarActivity" />
         <activity android:name=".Widgets1Activity" />
-        <activity android:name=".Widgets2Activity" />
         <activity android:name="com.example.yu.androidwidgets.DatePickerActivity"></activity>
     </application>
 
