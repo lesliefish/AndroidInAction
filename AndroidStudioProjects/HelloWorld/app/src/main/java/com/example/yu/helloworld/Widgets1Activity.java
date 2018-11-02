@@ -19,6 +19,7 @@ import com.example.yu.androidwidgets.SpinnerActivity;
 import com.example.yu.androidwidgets.TextEditActivity;
 import com.example.yu.androidwidgets.TextViewActivity;
 import com.example.yu.androidwidgets.ToggleButtonActivity;
+import com.example.yu.androidwidgets.ViewPagerActivity;
 import com.example.yu.androidwidgets.WebViewActivity;
 
 public class Widgets1Activity extends AppCompatActivity {
@@ -164,6 +165,15 @@ public class Widgets1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Widgets1Activity.this, DatePickerActivity.class));
+            }
+        });
+
+        // viewPager
+        Button viewPagerBtn = findViewById(R.id.viewPagerBtn);
+        viewPagerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Widgets1Activity.this, ViewPagerActivity.class));
             }
         });
     }
