@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import com.example.yu.androidwidgets.AlertDialogActivity;
@@ -22,18 +24,22 @@ import com.example.yu.androidwidgets.ToggleButtonActivity;
 import com.example.yu.androidwidgets.ViewPagerActivity;
 import com.example.yu.androidwidgets.WebViewActivity;
 
-public class Widgets1Activity extends AppCompatActivity {
+public class WidgetsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_widgets1);
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, TextViewActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, TextViewActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +49,7 @@ public class Widgets1Activity extends AppCompatActivity {
         learnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, BtnLearnActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, BtnLearnActivity.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +60,7 @@ public class Widgets1Activity extends AppCompatActivity {
         editTextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, TextEditActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, TextEditActivity.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +70,7 @@ public class Widgets1Activity extends AppCompatActivity {
         toggleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, ToggleButtonActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, ToggleButtonActivity.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +80,7 @@ public class Widgets1Activity extends AppCompatActivity {
         checkBoxBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, CheckBoxActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, CheckBoxActivity.class);
                 startActivity(intent);
             }
         });
@@ -84,7 +90,7 @@ public class Widgets1Activity extends AppCompatActivity {
         radioBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, RadioButtonActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, RadioButtonActivity.class);
                 startActivity(intent);
             }
         });
@@ -94,7 +100,7 @@ public class Widgets1Activity extends AppCompatActivity {
         alertDialogBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, AlertDialogActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, AlertDialogActivity.class);
                 startActivity(intent);
             }
         });
@@ -104,7 +110,7 @@ public class Widgets1Activity extends AppCompatActivity {
         spinnerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, SpinnerActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, SpinnerActivity.class);
                 startActivity(intent);
             }
         });
@@ -114,7 +120,7 @@ public class Widgets1Activity extends AppCompatActivity {
         listviewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, ListViewActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, ListViewActivity.class);
                 startActivity(intent);
             }
         });
@@ -124,7 +130,7 @@ public class Widgets1Activity extends AppCompatActivity {
         customListviewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, CustomListViewTestActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, CustomListViewTestActivity.class);
                 startActivity(intent);
             }
         });
@@ -134,7 +140,7 @@ public class Widgets1Activity extends AppCompatActivity {
         ratingBarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, RatingBarActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, RatingBarActivity.class);
                 startActivity(intent);
             }
         });
@@ -144,7 +150,7 @@ public class Widgets1Activity extends AppCompatActivity {
         webViewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, WebViewActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, WebViewActivity.class);
                 startActivity(intent);
             }
         });
@@ -154,7 +160,7 @@ public class Widgets1Activity extends AppCompatActivity {
         seekBarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Widgets1Activity.this, SeekBarActivity.class);
+                Intent intent = new Intent(WidgetsActivity.this, SeekBarActivity.class);
                 startActivity(intent);
             }
         });
@@ -164,7 +170,7 @@ public class Widgets1Activity extends AppCompatActivity {
         datePickerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Widgets1Activity.this, DatePickerActivity.class));
+                startActivity(new Intent(WidgetsActivity.this, DatePickerActivity.class));
             }
         });
 
@@ -173,7 +179,7 @@ public class Widgets1Activity extends AppCompatActivity {
         viewPagerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Widgets1Activity.this, ViewPagerActivity.class));
+                startActivity(new Intent(WidgetsActivity.this, ViewPagerActivity.class));
             }
         });
     }

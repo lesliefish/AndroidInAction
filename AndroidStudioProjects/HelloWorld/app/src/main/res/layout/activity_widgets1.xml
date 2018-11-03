@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Widgets1Activity">
+    tools:context=".WidgetsActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -133,7 +133,7 @@
                 android:id="@+id/viewPagerBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000000"
+                android:background="#660033"
                 android:text="ViewPager"
                 android:textColor="#ffffff" />
 

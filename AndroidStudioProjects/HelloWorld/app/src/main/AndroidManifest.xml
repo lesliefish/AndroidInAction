@@ -31,7 +31,7 @@
         <activity android:name="com.example.yu.androidwidgets.RatingBarActivity" />
         <activity android:name="com.example.yu.androidwidgets.WebViewActivity" />
         <activity android:name="com.example.yu.androidwidgets.SeekBarActivity" />
-        <activity android:name=".Widgets1Activity" />
+        <activity android:name=".WidgetsActivity" />
         <activity android:name="com.example.yu.androidwidgets.DatePickerActivity" />
         <activity android:name="com.example.yu.androidwidgets.ViewPagerActivity"></activity>
     </application>
