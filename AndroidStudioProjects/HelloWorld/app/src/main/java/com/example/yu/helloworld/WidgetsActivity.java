@@ -16,6 +16,7 @@ import com.example.yu.androidwidgets.DatePickerActivity;
 import com.example.yu.androidwidgets.ListViewActivity;
 import com.example.yu.androidwidgets.RadioButtonActivity;
 import com.example.yu.androidwidgets.RatingBarActivity;
+import com.example.yu.androidwidgets.SearchListViewActivity;
 import com.example.yu.androidwidgets.SeekBarActivity;
 import com.example.yu.androidwidgets.SpinnerActivity;
 import com.example.yu.androidwidgets.TextEditActivity;
@@ -33,7 +34,7 @@ public class WidgetsActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_widgets1);
+        setContentView(R.layout.activity_widgets);
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new Button.OnClickListener(){
@@ -180,6 +181,15 @@ public class WidgetsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(WidgetsActivity.this, ViewPagerActivity.class));
+            }
+        });
+
+        //searchListViewBtn
+        Button searchListViewBtn = findViewById(R.id.searchListViewBtn);
+        searchListViewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WidgetsActivity.this, SearchListViewActivity.class));
             }
         });
     }

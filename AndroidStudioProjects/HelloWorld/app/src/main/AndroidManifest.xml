@@ -33,7 +33,8 @@
         <activity android:name="com.example.yu.androidwidgets.SeekBarActivity" />
         <activity android:name=".WidgetsActivity" />
         <activity android:name="com.example.yu.androidwidgets.DatePickerActivity" />
-        <activity android:name="com.example.yu.androidwidgets.ViewPagerActivity"></activity>
+        <activity android:name="com.example.yu.androidwidgets.ViewPagerActivity" />
+        <activity android:name="com.example.yu.androidwidgets.SearchListViewActivity"></activity>
     </application>
 
 </manifest>
