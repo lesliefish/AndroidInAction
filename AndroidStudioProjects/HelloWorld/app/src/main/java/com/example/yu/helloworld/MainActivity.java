@@ -26,5 +26,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, WidgetsActivity.class));
             }
         });
+
+        Button menusBtn = findViewById(R.id.menusButton);
+        menusBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MenusActivity.class));
+            }
+        });
     }
 }
