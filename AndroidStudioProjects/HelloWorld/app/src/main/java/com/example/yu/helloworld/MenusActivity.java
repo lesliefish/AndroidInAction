@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.example.yu.androidmenus.ContextMenuActivity;
 import com.example.yu.androidmenus.OptionsMenuActivity;
+import com.example.yu.androidmenus.PopupMenuActivity;
 
 public class MenusActivity extends AppCompatActivity {
 
@@ -30,6 +31,15 @@ public class MenusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ContextMenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button popupMenuBtn = findViewById(R.id.popupMenuBtn);
+        popupMenuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), PopupMenuActivity.class);
                 startActivity(intent);
             }
         });

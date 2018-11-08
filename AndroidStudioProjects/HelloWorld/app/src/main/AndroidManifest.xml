@@ -37,7 +37,8 @@
         <activity android:name="com.example.yu.androidwidgets.SearchListViewActivity" />
         <activity android:name="com.example.yu.androidmenus.OptionsMenuActivity" />
         <activity android:name=".MenusActivity" />
-        <activity android:name="com.example.yu.androidmenus.ContextMenuActivity"></activity>
+        <activity android:name="com.example.yu.androidmenus.ContextMenuActivity" />
+        <activity android:name="com.example.yu.androidmenus.PopupMenuActivity"></activity>
     </application>
 
 </manifest>
