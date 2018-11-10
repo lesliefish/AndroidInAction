@@ -18,5 +18,13 @@
             android:text="Activity Life Circle"
             android:background="#020234"
             android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/implicitIntentTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImplicitIntent"
+            android:background="#112233"
+            android:textColor="#ee0000"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

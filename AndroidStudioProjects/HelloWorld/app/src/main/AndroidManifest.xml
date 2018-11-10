@@ -40,7 +40,8 @@
         <activity android:name="com.example.yu.androidmenus.ContextMenuActivity" />
         <activity android:name="com.example.yu.androidmenus.PopupMenuActivity" />
         <activity android:name="com.example.yu.activityAndIntents.ActivityLifeCircleActivity" />
-        <activity android:name=".ActivityAndIntentActivity"></activity>
+        <activity android:name=".ActivityAndIntentActivity" />
+        <activity android:name="com.example.yu.activityAndIntents.ImplicitIntentActivity"></activity>
     </application>
 
 </manifest>
