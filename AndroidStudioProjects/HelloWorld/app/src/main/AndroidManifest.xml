@@ -38,7 +38,9 @@
         <activity android:name="com.example.yu.androidmenus.OptionsMenuActivity" />
         <activity android:name=".MenusActivity" />
         <activity android:name="com.example.yu.androidmenus.ContextMenuActivity" />
-        <activity android:name="com.example.yu.androidmenus.PopupMenuActivity"></activity>
+        <activity android:name="com.example.yu.androidmenus.PopupMenuActivity" />
+        <activity android:name="com.example.yu.activityAndIntents.ActivityLifeCircleActivity" />
+        <activity android:name=".ActivityAndIntentActivity"></activity>
     </application>
 
 </manifest>
