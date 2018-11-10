@@ -13,6 +13,7 @@
 
         <EditText
             android:id="@+id/implicitIntentEdit"
+            android:text="http://www.baidu.com"
             android:layout_marginTop="50dp"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
