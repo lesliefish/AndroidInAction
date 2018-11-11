@@ -45,7 +45,9 @@
         <activity android:name=".OtherFunctionsActivity" />
         <activity android:name="com.example.yu.otherfuntions.TextToSpeechActivity" />
         <activity android:name="com.example.yu.activityandintents.ExplicitIntentActivity" />
-        <activity android:name="com.example.yu.activityandintents.ExplicitIntentTestActivity"></activity>
+        <activity android:name="com.example.yu.activityandintents.ExplicitIntentTestActivity" />
+        <activity android:name="com.example.yu.activityandintents.StartActivityForResultActivity" />
+        <activity android:name="com.example.yu.activityandintents.StartForResultTestActivity"></activity>
     </application>
 
 </manifest>

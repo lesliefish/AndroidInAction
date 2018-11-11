@@ -25,14 +25,22 @@
             android:layout_height="wrap_content"
             android:text="ImplicitIntent"
             android:background="#112233"
-            android:textColor="#ee0000"/>
+            android:textColor="#314488"/>
 
         <Button
             android:id="@+id/explicitIntentTestBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Explicit Intent"
-            android:background="#112233"
-            android:textColor="#449900"/>
+            android:background="#555566"
+            android:textColor="#009999"/>
+
+        <Button
+            android:id="@+id/startActivityForResultTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity For Result"
+            android:background="#111111"
+            android:textColor="#eeeeff"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

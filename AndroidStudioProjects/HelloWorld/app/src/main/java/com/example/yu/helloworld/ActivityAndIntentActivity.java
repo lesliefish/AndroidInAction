@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.example.yu.activityandintents.ActivityLifeCircleActivity;
 import com.example.yu.activityandintents.ExplicitIntentActivity;
 import com.example.yu.activityandintents.ImplicitIntentActivity;
+import com.example.yu.activityandintents.StartActivityForResultActivity;
 
 public class ActivityAndIntentActivity extends AppCompatActivity {
 
@@ -44,5 +45,15 @@ public class ActivityAndIntentActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button startActivityForResultTestBtn = findViewById(R.id.startActivityForResultTestBtn);
+        startActivityForResultTestBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), StartActivityForResultActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
