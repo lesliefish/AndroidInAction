@@ -47,7 +47,8 @@
         <activity android:name="com.example.yu.activityandintents.ExplicitIntentActivity" />
         <activity android:name="com.example.yu.activityandintents.ExplicitIntentTestActivity" />
         <activity android:name="com.example.yu.activityandintents.StartActivityForResultActivity" />
-        <activity android:name="com.example.yu.activityandintents.StartForResultTestActivity"></activity>
+        <activity android:name="com.example.yu.activityandintents.StartForResultTestActivity" />
+        <activity android:name="com.example.yu.activityandintents.ShareAppActivity"></activity>
     </application>
 
 </manifest>

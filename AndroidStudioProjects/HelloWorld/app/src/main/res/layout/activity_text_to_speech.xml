@@ -23,7 +23,7 @@
             android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="读口令"
+            android:text="文字转语音"
             android:layout_gravity="center"/>
 
     </LinearLayout>
