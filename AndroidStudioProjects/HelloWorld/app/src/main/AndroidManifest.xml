@@ -41,7 +41,9 @@
         <activity android:name="com.example.yu.androidmenus.PopupMenuActivity" />
         <activity android:name="com.example.yu.activityAndIntents.ActivityLifeCircleActivity" />
         <activity android:name=".ActivityAndIntentActivity" />
-        <activity android:name="com.example.yu.activityAndIntents.ImplicitIntentActivity"></activity>
+        <activity android:name="com.example.yu.activityAndIntents.ImplicitIntentActivity" />
+        <activity android:name=".OtherFunctionsActivity" />
+        <activity android:name="com.example.yu.otherfuntions.TextToSpeechActivity"></activity>
     </application>
 
 </manifest>

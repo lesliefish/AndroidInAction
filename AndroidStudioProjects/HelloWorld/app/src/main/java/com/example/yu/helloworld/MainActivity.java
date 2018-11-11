@@ -42,5 +42,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ActivityAndIntentActivity.class));
             }
         });
+
+        Button otherFunctionsBtn = findViewById(R.id.otherFunctionsButton);
+        otherFunctionsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, OtherFunctionsActivity.class));
+            }
+        });
     }
 }
