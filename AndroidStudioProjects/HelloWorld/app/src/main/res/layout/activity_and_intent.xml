@@ -26,5 +26,13 @@
             android:text="ImplicitIntent"
             android:background="#112233"
             android:textColor="#ee0000"/>
+
+        <Button
+            android:id="@+id/explicitIntentTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explicit Intent"
+            android:background="#112233"
+            android:textColor="#449900"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

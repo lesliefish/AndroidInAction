@@ -1,4 +1,4 @@
-package com.example.yu.activityAndIntents;
+package com.example.yu.activityandintents;
 
 import android.content.Intent;
 import android.net.Uri;

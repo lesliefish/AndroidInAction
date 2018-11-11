@@ -39,11 +39,13 @@
         <activity android:name=".MenusActivity" />
         <activity android:name="com.example.yu.androidmenus.ContextMenuActivity" />
         <activity android:name="com.example.yu.androidmenus.PopupMenuActivity" />
-        <activity android:name="com.example.yu.activityAndIntents.ActivityLifeCircleActivity" />
+        <activity android:name="com.example.yu.activityandintents.ActivityLifeCircleActivity" />
         <activity android:name=".ActivityAndIntentActivity" />
-        <activity android:name="com.example.yu.activityAndIntents.ImplicitIntentActivity" />
+        <activity android:name="com.example.yu.activityandintents.ImplicitIntentActivity" />
         <activity android:name=".OtherFunctionsActivity" />
-        <activity android:name="com.example.yu.otherfuntions.TextToSpeechActivity"></activity>
+        <activity android:name="com.example.yu.otherfuntions.TextToSpeechActivity" />
+        <activity android:name="com.example.yu.activityandintents.ExplicitIntentActivity" />
+        <activity android:name="com.example.yu.activityandintents.ExplicitIntentTestActivity"></activity>
     </application>
 
 </manifest>

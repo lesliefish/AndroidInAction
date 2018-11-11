@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.yu.activityAndIntents.ActivityLifeCircleActivity;
-import com.example.yu.activityAndIntents.ImplicitIntentActivity;
+import com.example.yu.activityandintents.ActivityLifeCircleActivity;
+import com.example.yu.activityandintents.ExplicitIntentActivity;
+import com.example.yu.activityandintents.ImplicitIntentActivity;
 
 public class ActivityAndIntentActivity extends AppCompatActivity {
 
@@ -31,6 +32,15 @@ public class ActivityAndIntentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ImplicitIntentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button explicitIntentTestBtn = findViewById(R.id.explicitIntentTestBtn);
+        explicitIntentTestBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ExplicitIntentActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,4 +1,4 @@
-package com.example.yu.activityAndIntents;
+package com.example.yu.activityandintents;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
